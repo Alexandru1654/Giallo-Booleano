@@ -17,13 +17,6 @@ h1 {
     font-style: normal;
 }
 
-/*media queris*/
-@media only screen and (max-width: 576px) {
-    body {
-        background-color: aquamarine;
-    }
-}
-
 /*main part*/
 main {
     background-color: rgba(246, 245, 243, 255);
@@ -78,7 +71,6 @@ main {
 hr {
     border-color: grey;
 }
-
 
 #more-info {
     display: inline-block;
@@ -204,5 +196,13 @@ footer {
 
 #name {
     padding-top: 40px;
+}
+
+
+@media screen and (max-width: 992px) {
+    body {
+        padding: 100px;
+        h1 {font-size: 100px;}
+    }
 }
 
