@@ -27,14 +27,6 @@ h1 {
 /*main part*/
 main {
     background-color: rgba(246,245,243,255);
-
-
-
-
-
-
-
-
     height: 2000px;
 }
 
@@ -96,10 +88,11 @@ hr {
 
 .contain {
     width: 900px;
-    height: 300px;
+    height: 450px;
     background-color: white;
     margin: auto;
     border: 1px solid white;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
 .contine {
@@ -123,11 +116,50 @@ hr {
     margin-top: 20px;
     margin-left: 25px;
     font-size: 22px;
-    background-color: white;
+    
 }
 
 
 
 
 
+/*facebook icons*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    }
+
+    .fa-facebook {
+        color: white;
+        background-color: #3B5998;
+        }
+
+        .fa-twitter {
+        color: rgba(0,158,255,255);
+        background-color: white;
+        }
+
+        .fa-instagram {
+            color: rgba(222,72,127,255);
+            background-color: white;
+        }
+
+        .fa-pinterest {
+            color: rgba(222,72,127,255);
+            background-color: white;
+        }
+
+        #icons {
+            text-align: center;
+            margin-right: 130px;
+        }
+
+        .fa {
+            margin-left: 120px;
+            margin-top: 50px;
+        }
 
